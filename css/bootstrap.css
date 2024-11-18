@@ -6889,8 +6889,9 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-warning-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-danger {
-  color: #fff !important;
+
+.text-bg-custom {
+  color: darkcyan !important;
   background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -8864,6 +8865,11 @@ textarea.form-control-lg {
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-custom {
+  --bs-bg-opacity: 1;
+  background-color: skyblue !important;
 }
 
 .bg-light {
